@@ -1,0 +1,43 @@
+<!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  fragment_home.xml
+  ~ Created by  ianchang on 2018-08-16 14:17:19
+  ~ Last modify date   2018-08-16 14:17:19
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ian.machine.screen.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:name="com.ian.machine.screen.CartFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="CartFragment" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#3f000000" />
+
+        <fragment
+            android:name="com.ian.machine.screen.WarehouseFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="WarehouseFragment" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

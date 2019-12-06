@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  dialog_loading.xml
+  ~ Created by  ianchang on 2018-06-13 14:14:00
+  ~ Last modify date   2018-06-13 14:13:59
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3f00f0f0"/>
+</LinearLayout>

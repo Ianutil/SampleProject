@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-Serialport-API/Android-Serialport-API.iml" filepath="$PROJECT_DIR$/Android-Serialport-API/Android-Serialport-API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android-Serialport-API-GUN/Android-Serialport-API-GUN.iml" filepath="$PROJECT_DIR$/Android-Serialport-API-GUN/Android-Serialport-API-GUN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DetectorLib/DetectorLib.iml" filepath="$PROJECT_DIR$/DetectorLib/DetectorLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FireFlower/FireFlower.iml" filepath="$PROJECT_DIR$/FireFlower/FireFlower.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HTTPSExample/HTTPSExample.iml" filepath="$PROJECT_DIR$/HTTPSExample/HTTPSExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InteractScreen/InteractScreen.iml" filepath="$PROJECT_DIR$/InteractScreen/InteractScreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MachineCart/MachineCart.iml" filepath="$PROJECT_DIR$/MachineCart/MachineCart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MachineMemberRegister/MachineMemberRegister.iml" filepath="$PROJECT_DIR$/MachineMemberRegister/MachineMemberRegister.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MachineScreen/MachineScreen.iml" filepath="$PROJECT_DIR$/MachineScreen/MachineScreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenLock/OpenLock.iml" filepath="$PROJECT_DIR$/OpenLock/OpenLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrinterPOS/PrinterPOS.iml" filepath="$PROJECT_DIR$/PrinterPOS/PrinterPOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apppush/apppush.iml" filepath="$PROJECT_DIR$/apppush/apppush.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bubbleExplosion/bubbleExplosion.iml" filepath="$PROJECT_DIR$/bubbleExplosion/bubbleExplosion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bubbleLayout/bubbleLayout.iml" filepath="$PROJECT_DIR$/bubbleLayout/bubbleLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libffmpeg/libffmpeg.iml" filepath="$PROJECT_DIR$/libffmpeg/libffmpeg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screenlibrary/screenlibrary.iml" filepath="$PROJECT_DIR$/screenlibrary/screenlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple/simple.iml" filepath="$PROJECT_DIR$/simple/simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpleaidl/simpleaidl.iml" filepath="$PROJECT_DIR$/simpleaidl/simpleaidl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpledagger/simpledagger.iml" filepath="$PROJECT_DIR$/simpledagger/simpledagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplegreendao/simplegreendao.iml" filepath="$PROJECT_DIR$/simplegreendao/simplegreendao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplemvp/simplemvp.iml" filepath="$PROJECT_DIR$/simplemvp/simplemvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weblibrary/weblibrary.iml" filepath="$PROJECT_DIR$/weblibrary/weblibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/widget/widget.iml" filepath="$PROJECT_DIR$/widget/widget.iml" />
+    </modules>
+  </component>
+</project>

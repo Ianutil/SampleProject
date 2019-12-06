@@ -1,0 +1,20 @@
+<!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  styles.xml
+  ~ Created by  ianchang on 2018-08-01 18:21:45
+  ~ Last modify date   2018-08-01 18:21:44
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  activity_main.xml
+  ~ Created by  ianchang on 2018-08-16 14:04:27
+  ~ Last modify date   2018-08-16 14:04:26
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ian.machine.screen.MainActivity"
+    android:background="#AAFF88FF">
+
+    <fragment
+        android:name="com.ian.machine.screen.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="HomeFragment" />
+
+</FrameLayout>

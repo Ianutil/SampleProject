@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 39,
+                    "endOffset": 90
+                },
+                "from": {
+                    "file": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 39,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 95,
+                    "endColumn": 58,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 58,
+                        "endOffset": 113
+                    }
+                }
+            }
+        ]
+    }
+]

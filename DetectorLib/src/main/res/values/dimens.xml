@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_14">20px</dimen>
+
+    <dimen name="margin_15">45px</dimen>
+    <dimen name="margin_45">80px</dimen>
+
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  activity_main.xml
+  ~ Created by  ianchang on 2018-08-01 18:21:45
+  ~ Last modify date   2018-08-01 18:21:44
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ian.printer.LockActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_open"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="打开串口" />
+
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="关闭串口" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/tty_group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/tty_s0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ttyS0" />
+
+            <RadioButton
+                android:id="@+id/tty_s1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ttyS1" />
+
+            <RadioButton
+                android:id="@+id/tty_s2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ttyS2" />
+
+            <RadioButton
+                android:id="@+id/tty_s3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="ttyS3" />
+
+            <RadioButton
+                android:id="@+id/tty_s4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ttyS4" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rb_group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/rb_4800"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4800" />
+
+            <RadioButton
+                android:id="@+id/rb_9600"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="9600" />
+
+            <RadioButton
+                android:id="@+id/rb_19200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19200" />
+
+            <RadioButton
+                android:id="@+id/rb_115200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="115200" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/printer_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="状态"
+        android:textColor="#FFFC1106" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:onClick="testPrintStatus"
+        android:text="查看状态" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:onClick="openLock"
+        android:text="打开锁" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:onClick="closeLock"
+        android:text="关闭锁" />
+
+</LinearLayout>

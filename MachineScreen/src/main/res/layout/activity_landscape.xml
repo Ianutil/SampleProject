@@ -1,0 +1,31 @@
+<!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  fragment_landscapee.xml
+  ~ Created by  ianchang on 2018-08-17 16:04:00
+  ~ Last modify date   2018-08-17 16:04:00
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ian.machine.screen.LandscapeFragment">
+
+    <com.bm.library.PhotoView
+        android:id="@+id/phote_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:src="@mipmap/face_1" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:onClick="comeBack"
+        android:id="@+id/come_back"/>
+
+</FrameLayout>

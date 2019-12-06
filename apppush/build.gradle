@@ -1,0 +1,55 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            // 个推、极光
+            abiFilters "armeabi", "armeabi-v7a", "x86_64", 'arm64-v8a'
+            //选择要添加的对应cpu类型的.so库。
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.google.code.gson:gson:2.7'
+
+    // 个推
+    compile 'com.getui:sdk:2.11.1.0'
+
+    // 极光
+    compile 'cn.jiguang.sdk:jpush:3.0.9'
+    compile 'cn.jiguang.sdk:jcore:1.1.7'
+
+    // 腾讯信鸽
+    compile 'com.tencent.xinge:xinge:3.1.81-alpha' // 信鸽稳定版
+    compile 'com.tencent.mid:mid:3.72.4-alpha' // mid包
+
+//    compile 'com.tencent.xinge:xinge:3.1.1-alpha'
+//    compile 'com.tencent.mid:mid:3.721-alpha' //mid包
+
+}

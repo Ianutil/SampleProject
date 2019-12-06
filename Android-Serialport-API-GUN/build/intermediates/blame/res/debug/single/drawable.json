@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API-GUN/build/intermediates/res/merged/debug/drawable/icon.png",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API-GUN/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API-GUN/build/intermediates/res/merged/debug/drawable/notification_icon_ready.png",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API-GUN/src/main/res/drawable/notification_icon_ready.png"
+    },
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API-GUN/build/intermediates/res/merged/debug/drawable/notification_icon_connected.png",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API-GUN/src/main/res/drawable/notification_icon_connected.png"
+    }
+]

@@ -1,0 +1,13 @@
+<!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  strings.xml
+  ~ Created by  ianchang on 2018-02-24 10:35:45
+  ~ Last modify date   2018-02-24 10:35:45
+  -->
+
+<resources>
+    <string name="app_name">服务功能测试</string>
+    <string name="describe">测试一下</string>
+</resources>

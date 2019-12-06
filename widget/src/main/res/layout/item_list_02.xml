@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  item_list_02.xml
+  ~ Created by  ianchang on 2018-06-04 17:41:47
+  ~ Last modify date   2018-06-04 16:56:35
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_menu"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#FF3dEf"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="item:"
+        android:textSize="18sp" />
+
+</LinearLayout>

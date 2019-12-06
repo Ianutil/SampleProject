@@ -1,0 +1,12 @@
+<!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  strings.xml
+  ~ Created by  ianchang on 2018-08-23 15:34:42
+  ~ Last modify date   2018-08-23 15:34:41
+  -->
+
+<resources>
+    <string name="app_name">会员注册</string>
+</resources>

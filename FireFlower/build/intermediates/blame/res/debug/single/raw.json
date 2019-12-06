@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/build/intermediates/res/merged/debug/raw/b.mid",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/src/main/res/raw/b.mid"
+    },
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/build/intermediates/res/merged/debug/raw/bg.mid",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/src/main/res/raw/bg.mid"
+    },
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/build/intermediates/res/merged/debug/raw/dead.wav",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/src/main/res/raw/dead.wav"
+    },
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/build/intermediates/res/merged/debug/raw/firework.mp3",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/src/main/res/raw/firework.mp3"
+    },
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/build/intermediates/res/merged/debug/raw/clock.mp3",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/src/main/res/raw/clock.mp3"
+    },
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/build/intermediates/res/merged/debug/raw/syu.mp3",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/src/main/res/raw/syu.mp3"
+    },
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/build/intermediates/res/merged/debug/raw/a.mid",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/src/main/res/raw/a.mid"
+    }
+]

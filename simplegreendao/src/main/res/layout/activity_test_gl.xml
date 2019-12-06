@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  activity_test_gl.xml
+  ~ Created by  ianchang on 2018-08-14 10:48:10
+  ~ Last modify date   2018-08-14 10:48:10
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.function.ianchang.simplegreendao.TestGLActivity">
+
+    <com.function.ianchang.simplegreendao.TestGLView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gl_view"/>
+
+
+
+</FrameLayout>

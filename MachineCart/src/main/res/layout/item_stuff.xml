@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  item_stuff.xml
+  ~ Created by  ianchang on 2018-08-22 10:42:59
+  ~ Last modify date   2018-08-20 10:52:20
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_selector_02">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="240px"
+            android:layout_height="240px"
+            android:src="@mipmap/icon" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_text_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/TextNormalStyle"/>
+
+            <TextView
+                android:id="@+id/item_text_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15px"
+                android:text="@string/app_name"
+                style="@style/TextNormalStyle"/>
+
+            <TextView
+                android:id="@+id/item_text_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15px"
+                android:text="@string/app_name"
+                style="@style/TextNormalStyle"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_text_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/app_name"
+        style="@style/TextNormalStyle"
+        android:textColor="#EEFF0000"/>
+
+</FrameLayout>

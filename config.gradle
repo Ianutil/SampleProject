@@ -1,0 +1,26 @@
+
+
+/*
+ * Copyright (c) 2018 Ian All copyright reserved.
+ * Author  Ian
+ * Project name  MyApplication
+ * Class name  config.gradle
+ * Created by  ianchang on 2018-08-17 10:52:02
+ * Last modify date   2018-08-15 15:17:02
+ */
+
+ext {
+
+    /******************  项目环境配置    ******************/
+
+    isDebug = true
+
+    if (isDebug){  // 测试环境
+        serviceUrl = 'http://192.168.25.160:5000'
+    }else{
+        // 生产环境
+        serviceUrl = "http://192.168.25.160:5000"
+    }
+
+/******************  项目环境配置    ******************/
+}

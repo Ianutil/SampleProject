@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  activity_main.xml
+  ~ Created by  ianchang on 2018-08-23 16:18:54
+  ~ Last modify date   2018-08-16 14:29:59
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAFF88FF"
+    tools:context="com.ian.machine.screen.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+
+    <fragment
+        android:name="com.ian.machine.member.Camera01Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="Camera01Fragment" />
+
+    <!--<fragment-->
+        <!--android:name="com.ian.machine.member.CameraFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:tag="CameraFragment" />-->
+
+    <!--<com.ian.machine.member.widget.BubbleLayout-->
+        <!--android:id="@+id/layout_bubble"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:onClick="ftpUpload"
+        android:text="ftp文件上传"
+        android:minHeight="75dp"
+        android:minWidth="120dp"
+        android:layout_marginTop="180dp"/>
+
+</FrameLayout>

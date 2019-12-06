@@ -1,0 +1,53 @@
+<!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  fragment_camera.xml
+  ~ Created by  ianchang on 2018-08-21 15:11:56
+  ~ Last modify date   2018-08-15 16:10:20
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3f3f"
+    tools:context="com.ian.machine.cart.CameraFragment">
+
+    <com.ian.machine.cart.widget.CameraTextureView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.ian.machine.cart.widget.FaceRectangleView
+        android:id="@+id/face_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_camera_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textColor="#FF0000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择相机"
+        android:layout_gravity="right|center_vertical"
+        android:id="@+id/btn_camera"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="识别"
+        android:layout_gravity="left|center_vertical"
+        android:id="@+id/btn_detect"/>
+
+</FrameLayout>

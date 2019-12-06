@@ -1,0 +1,15 @@
+<!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  strings.xml
+  ~ Created by  ianchang on 2018-08-16 14:04:27
+  ~ Last modify date   2018-08-16 14:04:26
+  -->
+
+<resources>
+    <string name="app_name">自动售卖机</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

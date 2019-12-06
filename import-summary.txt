@@ -1,0 +1,78 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Demo:
+* ant.properties
+* build.xml
+* proguard-project.txt
+From SerialPort_Android-master:
+* .gitattributes
+* .gitignore
+* AndroidManifest.xml
+* Demo/
+* Demo/AndroidManifest.xml
+* Demo/ant.properties
+* Demo/build.xml
+* Demo/lint.xml
+* Demo/proguard-project.txt
+* Demo/project.properties
+* Demo/res/
+* Demo/res/drawable-hdpi/
+* Demo/res/drawable-hdpi/ic_launcher.png
+* Demo/res/drawable-ldpi/
+* Demo/res/drawable-ldpi/ic_launcher.png
+* Demo/res/drawable-mdpi/
+* Demo/res/drawable-mdpi/ic_launcher.png
+* Demo/res/drawable-xhdpi/
+* Demo/res/drawable-xhdpi/ic_launcher.png
+* Demo/res/layout/
+* Demo/res/layout/main.xml
+* Demo/res/values/
+* Demo/res/values/strings.xml
+* Demo/src/
+* Demo/src/com/
+* Demo/src/com/thebigbang/
+* Demo/src/com/thebigbang/demo/
+* Demo/src/com/thebigbang/demo/SerialPortDemo.java
+* License.txt
+* README
+* build.xml
+* nbandroid/
+* nbandroid/private.properties
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In SerialPort_Android-master:
+* libs/ftdi_d2xx.jar => serialPort_Androidmaster/libs/ftdi_d2xx.jar
+* libs/prolific.jar => serialPort_Androidmaster/libs/prolific.jar
+* src/ => serialPort_Androidmaster/src/main/java/
+In Demo:
+* AndroidManifest.xml => demo/src/main/AndroidManifest.xml
+* lint.xml => demo/lint.xml
+* res/ => demo/src/main/res/
+* src/ => demo/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

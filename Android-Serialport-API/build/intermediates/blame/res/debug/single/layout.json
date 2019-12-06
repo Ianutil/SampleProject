@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API/build/intermediates/res/merged/debug/layout/loopback.xml",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API/src/main/res/layout/loopback.xml"
+    },
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API/build/intermediates/res/merged/debug/layout/sending01010101.xml",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API/src/main/res/layout/sending01010101.xml"
+    },
+    {
+        "merged": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API/build/intermediates/res/merged/debug/layout/console.xml",
+        "source": "/Users/ianchang/Public/Android/Workspace/MyApplication/Android-Serialport-API/src/main/res/layout/console.xml"
+    }
+]

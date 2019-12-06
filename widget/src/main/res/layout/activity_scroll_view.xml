@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ian.widget.ScrollViewActivity">
+
+
+    <com.ian.widget.view.PullToRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/refresh_layout">
+
+        <include layout="@layout/refresh_head"/>
+
+        <com.ian.widget.view.HeaderScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <include layout="@layout/load_more" />
+
+    </com.ian.widget.view.PullToRefreshLayout>
+
+</LinearLayout>

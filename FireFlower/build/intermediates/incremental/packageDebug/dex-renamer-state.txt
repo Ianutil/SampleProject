@@ -1,0 +1,4 @@
+#Fri Mar 22 10:58:31 CST 2019
+base.0=/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/ianchang/Public/Android/Workspace/MyApplication/FireFlower/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

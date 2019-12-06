@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Android-Serialport-API" />
+            <option value="$PROJECT_DIR$/Android-Serialport-API-GUN" />
+            <option value="$PROJECT_DIR$/DetectorLib" />
+            <option value="$PROJECT_DIR$/FireFlower" />
+            <option value="$PROJECT_DIR$/HTTPSExample" />
+            <option value="$PROJECT_DIR$/InteractScreen" />
+            <option value="$PROJECT_DIR$/MachineCart" />
+            <option value="$PROJECT_DIR$/MachineMemberRegister" />
+            <option value="$PROJECT_DIR$/MachineScreen" />
+            <option value="$PROJECT_DIR$/OpenLock" />
+            <option value="$PROJECT_DIR$/PrinterPOS" />
+            <option value="$PROJECT_DIR$/apppush" />
+            <option value="$PROJECT_DIR$/bubbleExplosion" />
+            <option value="$PROJECT_DIR$/bubbleLayout" />
+            <option value="$PROJECT_DIR$/libffmpeg" />
+            <option value="$PROJECT_DIR$/screenlibrary" />
+            <option value="$PROJECT_DIR$/simple" />
+            <option value="$PROJECT_DIR$/simpleaidl" />
+            <option value="$PROJECT_DIR$/simpledagger" />
+            <option value="$PROJECT_DIR$/simplegreendao" />
+            <option value="$PROJECT_DIR$/simplemvp" />
+            <option value="$PROJECT_DIR$/vitamio" />
+            <option value="$PROJECT_DIR$/weblibrary" />
+            <option value="$PROJECT_DIR$/widget" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

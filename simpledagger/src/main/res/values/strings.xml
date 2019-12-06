@@ -1,0 +1,12 @@
+<!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  strings.xml
+  ~ Created by  ianchang on 2018-07-06 13:47:58
+  ~ Last modify date   2018-07-06 13:47:55
+  -->
+
+<resources>
+    <string name="app_name">SimpleDagger</string>
+</resources>

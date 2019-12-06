@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+configurations.all {
+    resolutionStrategy.force 'com.android.support:support-annotations:23.1.0'
+}
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+    defaultConfig {
+        applicationId "com.example.ianchang.myapplication"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [
+
+                // 个推
+                GETUI_APP_ID    : "4bdrmVhHrr7asupAawDN44",
+                GETUI_APP_KEY   : "9LuKCsMtIk7TSykeIngDE7",
+                GETUI_APP_SECRET: "CQCTppAloO7WdN30BQOLA3",
+
+                // 极光
+                JPUSH_PKGNAME   : applicationId,
+                JPUSH_APPKEY    : "2df92e12cc606f04f6b636f1", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL   : "developer-default", //暂时填写默认值即可.
+
+                // 腾讯信鸽
+                XG_ACCESS_ID    : "2100270324",
+                XG_ACCESS_KEY   : "AE5IY8A587PQ",
+        ]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    compile project(':apppush')
+    compile project(':screenlibrary')
+    compile project(':simpleaidl')
+    compile project(':weblibrary')
+    compile project(':vitamio')
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:26.+'
+    compile 'com.android.support:multidex:1.0.1'
+    testCompile 'junit:junit:4.12'
+}

@@ -1,0 +1,50 @@
+<!--
+  ~ Copyright (c) 2018 Ian All copyright reserved.
+  ~ Author  Ian
+  ~ Project name  MyApplication
+  ~ Class name  fragment_camera.xml
+  ~ Created by  ianchang on 2018-08-21 15:11:56
+  ~ Last modify date   2018-08-15 16:10:20
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_camera">
+
+        <SurfaceView
+            android:id="@+id/camera_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.ian.machine.member.widget.FocusView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detect_view"/>
+
+
+        <Button
+            android:id="@+id/switch_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="75dp"
+            android:layout_gravity="right"
+            android:text="切换前/后相机" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/layout_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>
